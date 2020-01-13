@@ -34,3 +34,10 @@ echo "My First Name is {$fname} and My Last Name is {$lname}\n";
 
 // Printf
 printf("My First Name is %s and My Last Name is %s", $fname, $lname);
+
+// Advance topic
+$fn = "Md";
+$mn = "saifur";
+$ln = "rahman";
+printf('%3$s %2$s %1$s', $fn, $mn, $ln); // have to use single quote
+// Output will be: rahman saifur Md
